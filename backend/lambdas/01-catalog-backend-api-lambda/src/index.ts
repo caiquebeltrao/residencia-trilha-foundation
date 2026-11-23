@@ -129,6 +129,7 @@ export const handler = async (
   event: APIGatewayProxyEvent,
 ): Promise<APIGatewayProxyResult> => {
   try {
+      console.log("catalog-request-received", { method: event.httpMethod, path: event.path, version: "pipeline-v2" });
     const method = event.httpMethod;
     const path = event.path;
     if (!method || !path) {
