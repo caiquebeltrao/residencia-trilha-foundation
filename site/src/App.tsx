@@ -145,7 +145,7 @@ function AuthScreen({ onAuthenticated }: { onAuthenticated: (user: Authenticated
       <section className="login-story">
         <div className="story-code">MARKETPLACE FULL CYCLE</div>
         <h1>Descubra. <em>Compre e venda.</em></h1>
-        <p>Uma experiência completa de marketplace3, com identidade, catálogo, estoque, pedidos e processamento assíncrono.</p>
+        <p>Uma experiência completa de marketplace2, com identidade, catálogo, estoque, pedidos e processamento assíncrono.</p>
         <div className="journey-line">
           <div className="journey-item journey-item-active"><span>01</span><strong>Acesso</strong></div>
           <div className="journey-item"><span>02</span><strong>Catálogo</strong></div>
